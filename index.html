@@ -26,16 +26,26 @@
                        title="2 symbols seperated by commas" required>
             </label>
             <label for="search-currency">
-                <select name="search-currency" id="js-search-currency">
+                <select name="currency" id="js-search-currency">
                     <option value="USD">USD</option>
                     <option value="EUR" selected>EUR</option>
                 </select>
             </label>
         </div>
+        <div class="search-button">
+            <button id="js-search-button" class="button" type="submit">Compare</button>
+        </div>
     </form>
 </div>
-
-
+<div class="content-container">
+    <div id="js-price-list-container"></div>
+    <div id="myModal" class="modal">
+        <div class="modal-content"><span class="close">&price;</span>
+            <div class="cryptocurrency-information"></div>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
 </body>
 
 </html>
