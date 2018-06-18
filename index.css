@@ -1,8 +1,8 @@
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 body {
+  text-align: center;	
   font-family: 'Times New Roman', Times, serif
 }
 .row {
@@ -79,9 +79,7 @@ body {
   padding-bottom: 10px;
 }
 .col-12 {
-  border: 2px solid gray;
   padding: 0px 0px 15px 0px;
-  
 }
 .logo {
   display: inline-block;
@@ -90,10 +88,25 @@ body {
   width: 220px;
   height: 220px;
   border-radius: 10%;
+  padding-top: 35px;
 }
 h1 {
+  text-align: center;
   display: inline-block;
 }
 h2 {
   text-align: center;
 }
+header {
+    width: 100%;
+    color: black;
+    font-size: 30px;
+}
+h1 {
+
+	padding-left: 100px;
+}
+.js-search-form {
+	
+	padding-top: 50px;
+	} 
