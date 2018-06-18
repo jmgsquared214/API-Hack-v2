@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CryptoEdge</title>
+    <script>src = "https://code.jquery.com/jquery-3.2.1.min.js"</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Lato:300,700|Raleway:500|Roboto" rel="stylesheet">
+</head>
+<body class="landing-page">
+<header roles="banner">
+
+    <a href="index.html"><span class="go-button">go</span><span class="crypto-style">CryptoEdge</span></a>
+</header>
+<div id="search-box">
+    <form id="js-search-form" class="search-form">
+        <legend><h1>Compare Any Two Crypto-Currencies</h1></legend>
+        <div class="search-input">
+            <label for="search-box">
+                <span class="input-label">Enter A Currency</span>
+                <input placeholder="example: btc,dgb" type="text" name="search-box" id="js-query" class="input-box"
+                       title="2 symbols seperated by commas" required>
+            </label>
+            <label for="search-currency">
+                <select name="search-currency" id="js-search-currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR" selected>EUR</option>
+                </select>
+            </label>
+        </div>
+    </form>
+</div>
+
+
+</body>
+
+</html>
+
